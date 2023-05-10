@@ -1,0 +1,8 @@
+{
+    "name": "Xray-Vless-Heroku",
+    "description": "Heroku pvt v2ray server",
+    "logo":"https://telegra.ph/file/1447679feec0d1fa42b20.png",
+    "keywords": ["xray"],
+    "repository": "https://github.com/horapusa-lk/heroku-v2ray",
+    "stack": "container"
+}
