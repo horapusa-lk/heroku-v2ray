@@ -16,7 +16,7 @@
     },
     "inbounds": [
         {
-            "port": 443,
+            "port": 80,
             "protocol": "vless",
             "settings": {
                 "clients": [
@@ -38,24 +38,7 @@
                     ]
                 }
             }
-        },
-        {
-            "port": 80,
-            "protocol": "vless",
-            "settings": {
-                "clients": [
-                    {
-                        "id": "86f43cca-ad90-4f33-af8f-e018f74c9b1b"
-                    }
-                ],
-                "decryption": "none"
-            },
-            "streamSettings": {
-                "network": "ws",
-                "security": "none"
-            }
         }
-    ],
     "outbounds": [
         {
             "protocol": "freedom",
